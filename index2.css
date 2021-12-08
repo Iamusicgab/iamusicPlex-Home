@@ -1,0 +1,53 @@
+@font-face{
+    src: url('light.woff2');
+    font-family: light;
+}
+html{
+    background-color: rgb(54, 54, 54);
+    font-family: light;
+    color: white;
+}
+.head{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    flex-direction: column;
+}
+.plex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+}
+.warn{
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    width: 50%;
+}
+.button{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-family: light;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 0 0 20px black;
+}
